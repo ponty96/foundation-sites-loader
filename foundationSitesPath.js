@@ -20,7 +20,7 @@ function createTestParentPath(configPath, nLevelsUp) {
     foundationNotFound();
   }
 
-  return path.resolve(path.join(levelsUp, 'node_modules', 'foundation-sites'));
+  return path.resolve(path.join(levelsUp, 'node_modules', 'foundation-sites-loader'));
 }
 
 module.exports = {
